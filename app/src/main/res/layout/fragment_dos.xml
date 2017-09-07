@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.i032114.parcial1.dosFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:id="@+id/imagenw"
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:background="@drawable/pizza"
+                android:layout_margin="10sp"
+                android:scaleType="centerCrop"
+
+                />
+
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/textw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mi comida favorita"
+                android:textStyle="bold"
+                android:textColor="#EE0E0E"
+                android:layout_toRightOf="@id/imagenw"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:padding="20dp"
+                android:id="@+id/tv_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/srt_1"
+                android:layout_toRightOf="@id/imagenw"
+                android:layout_below="@id/textw"
+                android:textSize="15sp"/>
+
+
+            <RelativeLayout
+                android:background="#f44336"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_1"
+                android:layout_centerHorizontal="true"
+
+
+
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="ADICIONAR A CARRITO"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#FFFCFC"
+
+
+
+
+
+                    />
+
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>

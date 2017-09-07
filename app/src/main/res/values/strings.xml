@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Parcial1</string>
+    <string name="str_1">Opcion1</string>
+    <string name="str_2">Opcion2</string>
+    <string name="str_3">OPcion3</string>
+    <string name="srt_3">Parcial1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="srt_1">\"mi comida favorita es la piza\" Todos y cada uno tiene gustos diferentes en lo que rezpecta a la alimentacion</string>
+</resources>
